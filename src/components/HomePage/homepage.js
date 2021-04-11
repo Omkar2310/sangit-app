@@ -5,7 +5,6 @@ import About from '../../pages/About';
 import Albums from '../../pages/Albums';
 import Profile from '../../pages/Profile';
 import Home from '../../pages/Home';
-import TopBar from '../TopBar';
 import './homepage_styles.css';
 const HomePage = ({handleLogout,user}) => {
     // console.log({user});

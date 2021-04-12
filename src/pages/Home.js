@@ -8,7 +8,7 @@ import SpotifyWebApi from "spotify-web-api-js";
 
 import axios from 'axios';
 
-const s = new SpotifyWebApi();
+
 
 const Home = () => {
 
@@ -16,11 +16,7 @@ const Home = () => {
 
   console.log('RENDERING APP.JS');
 
-  const data = [
-    {value: 1, name: 'A'},
-    {value: 2, name: 'B'},
-    {value: 3, name: 'C'},
-  ]; 
+  
 
   const [token, setToken] = useState('');  
   const [genres, setGenres] = useState({selectedGenre: '', listOfGenresFromAPI: []});

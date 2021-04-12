@@ -1,7 +1,7 @@
 import React from 'react';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-import axios from 'axios';
+
 const Player = ({trackDetail,token}) => {
     console.log(trackDetail);
     console.log(token);
